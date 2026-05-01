@@ -1,69 +1,68 @@
-# Real_Time_Financial_Fraud_Detection
-Machine learning-based financial fraud detection system that identifies suspicious transactions using classification models and real-time prediction interface.
-# 💳 Financial Fraud Detection System
+# 🚆 Train Rides Data Analysis (EDA)
 
 ## 📌 Overview
-This project is a **Machine Learning-based Financial Fraud Detection System** designed to identify fraudulent transactions in real time.  
-It uses historical transaction data to train models that can distinguish between legitimate and suspicious activities.
+This project focuses on **Exploratory Data Analysis (EDA)** of train ride data to understand travel patterns, delays, ticket pricing, and passenger behavior.  
+The goal is to extract meaningful insights from raw data and support better decision-making.
 
 ---
 
-## 🎯 Problem Statement
-Financial fraud is a major challenge for banks and online platforms.  
-Fraudulent transactions are often hidden within a large number of normal transactions, making manual detection difficult and inefficient.
+## 🎯 Objective
+- Analyze train ride data to identify trends and patterns  
+- Understand factors affecting delays and ticket pricing  
+- Provide insights for improving efficiency and customer experience  
 
 ---
 
-## 💡 Solution
-This system uses machine learning algorithms to analyze transaction patterns and detect fraud automatically.  
-It helps improve detection accuracy and reduces financial losses.
+## 📊 Dataset Description
+The dataset contains information such as:
+- Train ID / Name  
+- Source & Destination  
+- Departure & Arrival Time  
+- Delay Information  
+- Ticket Price  
+- Travel Duration  
 
 ---
 
 ## ⚙️ Technologies Used
 - Python  
-- Pandas, NumPy (Data Processing)  
-- Scikit-learn (Model Building)  
-- XGBoost (Advanced Model)  
-- Streamlit (User Interface)  
-- SHAP (Model Explainability)  
+- Pandas, NumPy (Data Analysis)  
+- Matplotlib, Seaborn (Data Visualization)  
+- Jupyter Notebook  
 
 ---
 
-## 🚀 Features
-- Data preprocessing and feature engineering  
-- Handling class imbalance using SMOTE and class weighting  
-- Multiple ML models:
-  - Logistic Regression  
-  - Random Forest  
-  - XGBoost  
-- Model evaluation using ROC-AUC and Recall  
-- Real-time prediction with Streamlit interface  
-- Model explainability using SHAP  
+## 🔍 Key Analysis Performed
+- Data cleaning and preprocessing  
+- Handling missing values  
+- Time-based analysis (departure, arrival trends)  
+- Delay analysis across routes  
+- Price distribution and variation  
+- Correlation between features  
 
 ---
 
-## 📊 Workflow
-1. Data Collection  
-2. Data Cleaning & Preprocessing  
-3. Feature Engineering  
-4. Model Training & Evaluation  
-5. Deployment using Streamlit  
+## 📈 Visualizations
+- Bar charts for route analysis  
+- Line plots for time trends  
+- Heatmaps for correlation  
+- Distribution plots for ticket pricing  
+
+---
+
+## 🚀 Key Insights
+- Identified peak travel times and busiest routes  
+- Observed patterns in train delays  
+- Found variations in ticket pricing based on distance and time  
+- Highlighted factors influencing travel duration  
 
 ---
 
 ## 🧠 Key Learnings
-- Handling imbalanced datasets  
-- Importance of feature engineering  
-- Evaluating models beyond accuracy  
-- Building end-to-end ML pipelines  
-
----
-
-## 🔮 Future Improvements
-- Real-time data streaming integration  
-- Model optimization for scalability  
-- Enhanced dashboard and monitoring system  
+- Importance of data cleaning in real-world datasets  
+- Extracting insights using visualization techniques  
+- Understanding patterns through EDA  
+- Improving data interpretation skills  
 
 ---
 
